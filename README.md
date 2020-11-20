@@ -13,3 +13,8 @@ DB_PASS=[yours goes here]
 DB_SERVICE=[yours goes here]
 DB_PORT=5432
 ```
+
+#Github actions
+
+Setup GH actions to run python tests - look in .github/workflows/django.yml
+in order to pass in env variables, using GH secrets
