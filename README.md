@@ -4,9 +4,10 @@ Recipe app api source code
 ## securing env variables for passwords etc.
 create a .env file in the root of your project as follows:
 .env is ignored in .gitignore by default so you won't upload to github
-SECRET_KEY=[some random secure 50 char string]
+## .env sample
+```SECRET_KEY=[some random secure 50 char string]
 DB_NAME=[yours goes here]
 DB_USER=[yours goes here]
 DB_PASS=[yours goes here]
 DB_SERVICE=[yours goes here]
-DB_PORT=5432
+DB_PORT=5432```
